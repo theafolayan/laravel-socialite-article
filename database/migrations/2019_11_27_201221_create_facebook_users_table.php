@@ -26,6 +26,6 @@
      */
     public function down()
     {
-        Schema::dropIfExists('social_facebook_accounts');
+        Schema::dropIfExists('facebook_users');
     }
  }
